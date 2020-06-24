@@ -26,21 +26,6 @@ if guess == number:
 # In[ ]:
 
 
-#password genrate
-import random
-characters ='abcdefghijklmnopqrstuvwxyzABDCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*<>?/'
-number = input('how many many letters,numbers you want =')
-number =int(number)
-
-length = input('How long you want your password? =')
-length = int(length)
-for p in range(number):
-    password = ''
-for c in range(length):
-    password    = random.choice(characters)
-    print(password)
-
-
 # In[ ]:
 
 
